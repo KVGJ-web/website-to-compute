@@ -7,38 +7,43 @@
   <title> Kai - Student Page</title>
   <style>
     body {
-      font-family: Times Roman, Aswald;
+      font-family: "Times New Roman", Oswald, serif;
       background: #010c0c;
       padding: 1cm;
       margin: 0;
-      color: #1a1a1b61; /* Ensures all text is visible */
+      color: hsl(0, 100%, 50%); /* Ensures all text is visible */
     }
-
-    .container {
-      max-width: 700px;
+      .container {
+      max-width: 600px;
       margin: auto;
-      background: hsla(260, 3%, 21%, 0);
+      background: hsla(267, 3%, 21%, 0);
       padding: 2em;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgb(251, 1, 5);
+      border-radius: 30px;
+      box-shadow: 0 8px 10px rgb(245, 1, 1);
     }
-
-    h1 {
+ h1 {
       color: hsl(0, 99%, 51%);
     }
-
-    .profile-pic {
-      width: 150px;
-      border-radius: 70%;
-      margin-bottom: 1em;
-      box-shadow: 0 5px 6px rgb(252, 3, 3);
-    }
-
-    .bio {
-      font-size: 0.9em;
+ .bio {
+      font-size: 1.2em;
       line-height: 1.6;
       color: #fd0606; /* Explicit text color */
     }
+.profile-pic {
+      width: 140px;
+      border-radius: 21%;
+      margin-bottom: 1em;
+      box-shadow: 0 4px 9px 0 #fd0101;
+    }
+
+    .back-link {
+            color: transparent;           /* Hidden by default */
+            text-decoration: none;
+            transition: color 0.3s ease;  /* Optional fade-in effect */
+        }
+
+        .back-link:hover {
+            color: rgb(247, 5, 5);                 /* Visible on hover */
 
     a.back-link {
       display: inline-block;
@@ -48,9 +53,7 @@
       font-weight: normal;
     }
 
-    a.back-link:hover {
-      text-decoration: underline;
-    }
+}
   </style>
 </head>
 
@@ -59,18 +62,14 @@
     <h1>Kai Jackson</h1>
     <img src="images/tourbillon-modelpage-presskit-31.jpg" alt="" class="profile-pic" />
    
-    <p class="bio">
-       Hi! I'm Kai.
-I'm learning how to code — and it's fun!
-I'm currently learning HTML and CSS, and I'm excited to explore more about web development.
+ Hi! my name is Kai
+and I am currently learning how to code-and it's fun!
+The code that I am currently learning is HTML and CSS.
+I'm excited to explore more about web development.
 I'm also looking forward to the next part of life, where my world revolves around computer science.
-I'm grateful for the opportunity my wonderful teacher has given me!
+I'm grateful for the opportunity my great teacher has given me!
 
-
-
-    </p>
-
-    <a class="back-link" href="index.html">← Back to Home</a>
+<a class="back-link" href="index.html">← Back to Home</a>
   </div>
 </body>
 
